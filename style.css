@@ -5,16 +5,16 @@
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Overpass', sans-serif;
     background: hsl(216, 12%, 8%);
     color: white;
 }
 
 .container-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 1440px;
     margin: 10px auto;
 }
@@ -141,4 +141,58 @@ input:hover+.radio-title {
     background-color: hsl(216, 12%, 54%);
     border-radius: 50px;
     transition: all .3s ease-in;
+}
+
+.popup-menu {
+    max-width: 1400px;
+    margin: 1px auto;
+    display: flex;
+    justify-content: center;
+    background-color: #252d37;
+    width: 410px;
+    height: 420px;
+    padding: 20px;
+    border-radius: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.selected {
+    display: flex;
+    width: 250px;
+    margin: 2px auto;
+    background-color: hsl(213, 15%, 26%);
+    color: hsl(25, 97%, 53%);
+    padding: 15px;
+    justify-content: center;
+    border-radius: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hidden {
+    display: none;
+    margin: 10px auto;
+}
+
+.unhidden {
+    display: initial;
+    transition: all 0.3s ease-in-out
+}
+
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.thank-img {
+    display: flex;
+    justify-content: center;
+}
+
+.thank-you .content {
+    text-align: center;
 }
