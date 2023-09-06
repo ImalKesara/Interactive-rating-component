@@ -65,7 +65,7 @@ body {
     background-color: rgb(161, 159, 159);
 }
 
-button {
+input[type=submit] {
     display: block;
     background-color: hsl(25, 97%, 53%);
     color: white;
@@ -79,7 +79,7 @@ button {
     transition: all .3s ease-in-out;
 }
 
-button:hover {
+input[type=submit]:hover {
     background-color: white;
     color: hsl(25, 97%, 53%);
 }
@@ -88,4 +88,56 @@ button:hover {
     font-family: 'Poppins', sans-serif;
     font-weight: 400 !important;
     font-size: 15px;
+}
+
+.rating-stars-radio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-container {
+    position: relative;
+    /* border: 1px solid wheat; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(159, 159, 159);
+    bottom: 18px;
+}
+
+.input-container input {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    color: red !important;
+    z-index: 2;
+    opacity: 0;
+    top: 0;
+    transition: all .3s ease-in-out;
+}
+
+.input-container .radio-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid pink; */
+    height: 50px;
+    border-radius: 50px;
+    transition: all .1s ease-in;
+    border: 0;
+}
+
+.input-container label {
+    font-size: 20px;
+}
+
+input:checked+.radio-title {
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 50px;
+}
+
+input:hover+.radio-title {
+    background-color: rgb(113, 113, 113);
+    border-radius: 50px;
 }
