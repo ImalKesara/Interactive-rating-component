@@ -1,9 +1,10 @@
 # Frontend Mentor - Interactive rating component
+![Screenshot 2023-09-06 125243](https://github.com/ImalKesara/Interactive-rating-component/assets/136368707/70c90e32-3080-49c9-914b-05edb05046ab)
 
-![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
+![Screenshot 2023-09-06 155918](https://github.com/ImalKesara/Interactive-rating-component/assets/136368707/d2ef64ed-01c8-4c1e-b011-c9ba446915e9)
+
 
 ## Welcome! 👋
-
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
