@@ -101,7 +101,7 @@ input[type=submit]:hover {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    background: rgb(159, 159, 159);
+    background: #313a45;
     bottom: 18px;
 }
 
@@ -113,7 +113,7 @@ input[type=submit]:hover {
     z-index: 2;
     opacity: 0;
     top: 0;
-    transition: all .3s ease-in-out;
+    /* transition: all .5s ease-in; */
 }
 
 .input-container .radio-title {
@@ -124,7 +124,7 @@ input[type=submit]:hover {
     /* border: 1px solid pink; */
     height: 50px;
     border-radius: 50px;
-    transition: all .1s ease-in;
+    /* transition: all .3s ease-in; */
     border: 0;
 }
 
@@ -138,6 +138,7 @@ input:checked+.radio-title {
 }
 
 input:hover+.radio-title {
-    background-color: rgb(113, 113, 113);
+    background-color: hsl(216, 12%, 54%);
     border-radius: 50px;
+    transition: all .3s ease-in;
 }
